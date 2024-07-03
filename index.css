@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+    text-align: center;
+    
+}
+ul li{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+ul {
+    padding-left: 20px;
+}
+img{
+    position: absolute;
+    margin-top: -11em;
+    margin-left: -19em;
+}
+
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    .container {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    header h1 {
+      font-size: 24px;
+    }
+  
+    .profile,
+    .My_Goals,
+    .links {
+      margin-bottom: 30px;
+    }
+  
+    .profile img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Tablet styles */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    header h1 {
+      font-size: 32px;
+    }
+  
+    .profile,
+    .My_Goals,
+    .links {
+      margin-bottom: 40px;
+    }
+  
+    .profile img {
+      max-width: 200px;
+      height: auto;
+    }
+  }
+  
+  /* Desktop styles */
+  @media (min-width: 1200px) {
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    header h1 {
+      font-size: 40px;
+    }
+  
+    .profile,
+    .My_Goals,
+    .links {
+      margin-bottom: 50px;
+    }
+  
+    .profile img {
+      max-width: 250px;
+      height: auto;
+    }
+  }
