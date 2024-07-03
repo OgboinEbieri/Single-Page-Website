@@ -1,0 +1,140 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header{
+  text-align: center;
+    
+}
+ul li{
+  padding-left: 40px;
+  margin-bottom: 0px;
+}
+ul {
+  padding-left: 20px;
+}
+/* img{
+  position: absolute;
+  margin-top: -11em;
+  margin-left: -19em;
+} */
+
+
+@media (max-width: 425px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    ul li {
+        padding-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    ul {
+        padding-left: 10px;
+    }
+
+    .links ul.no_bullets li {
+      padding-left: 0;
+  }
+
+  .links ul.no_bullets li a {
+      text-decoration: none;
+      color: #007BFF;
+  }
+
+  .links ul.no_bullets li a:hover {
+      text-decoration: underline;
+  }
+    img {
+        position: static;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 426px) and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    ul li {
+        padding-left: 15px;
+        margin-bottom: 7px;
+    }
+
+    ul {
+        padding-left: 15px;
+    }
+
+    img {
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        width: 75%;
+        height: auto;
+    }
+    .links ul.no_bullets li {
+      padding-left: 0;
+  }
+
+  .links ul.no_bullets li a {
+      text-decoration: none;
+      color: #007BFF;
+  }
+
+  .links ul.no_bullets li a:hover {
+      text-decoration: underline;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+      max-width: 800px;
+      padding: 20px;
+  }
+
+  .profile img {
+      position: relative;
+      margin-top: 10px;
+      margin-left: 0;
+  }
+
+  ul li {
+      padding-left: 20px;
+      margin-bottom: 10px;
+  }
+
+  ul {
+      padding-left: 20px;
+  }
+
+  .links ul.no_bullets li {
+      padding-left: 0;
+  }
+
+  .links ul.no_bullets li a {
+      text-decoration: none;
+      color: #007BFF;
+  }
+
+  .links ul.no_bullets li a:hover {
+      text-decoration: underline;
+  }
+}
